@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table{
+    border: solid black 1px;
+    
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+table tr{
+    width: 60%;
+    border: solid black 1px;
+}
+table th{
+    height: 25px;
+    border: solid black 1px;
+}
+.data{
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+}
+.four{
+    background-color: lightgrey;
+}
+table tr td{
+    vertical-align: text-top;
+    color: blue;
+    padding-top: 0px;
+
+
+}
+#yellow{
+    background-color: yellow;
+    text-decoration: underline blue;
+    
+}
+#green{
+    background-color: green;
+    text-decoration: underline blue;
+}
+#pink{
+    background-color: rgb(35, 214, 175);
+    text-decoration: underline blue;
+}
+#orange{
+    background-color: orange;
+    text-decoration: underline blue;
+}
+#orchid{
+    background-color: orchid;
+    text-decoration: underline blue;
+}
+#one{
+    background-image: url(images/flower1.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#two{
+    background-image: url(images/flower2.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#three{
+    background-image: url(images/flower3.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#four{
+    background-image: url(images/flower4.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#five{
+    background-image: url(images/flower5.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#six{
+    background-image: url(images/flower6.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#seven{
+    background-image: url(images/flower7.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#eight{
+    background-image: url(images/flower8.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#nine{
+    background-image: url(images/flower9.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#ten{
+    background-image: url(images/forms.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#eleven{
+    background-image: url(images/library.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#twelve{
+    background-image: url(images/paste.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#thirteen{
+    background-image: url(images/responsive.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#fourteen{
+    background-image: url(images/seo.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#fifteen{
+    background-image: url(images/static.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#sixteen{
+    background-image: url(images/vectors.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#seventeen{
+    background-image: url(images/versions.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
