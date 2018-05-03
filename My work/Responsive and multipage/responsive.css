@@ -1,0 +1,212 @@
+*{
+	box-sizing: border-box;
+}
+#left{
+	width: 21%;
+	height: 100%;
+	position: fixed;
+	box-sizing: border-box;
+	margin-left: auto;
+	text-align: left;
+	font-family: verdana;
+	margin-right: auto;
+}
+#left h1{
+	padding-left: auto;
+}
+#left h1 a{
+	text-decoration: none;
+	color: black;
+}
+#menu{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: auto;
+	text-align: left;
+	font-family: verdana;
+}
+#menu li{
+	margin-top: 10px;
+	font-weight: bold;
+	padding: 10px;
+}
+#menu li a{
+	text-decoration: none;
+	color: black;
+}
+#menu li:hover{
+	background-color: grey;
+}
+#contact{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 50px;
+	text-align: left;
+	font-family: verdana;
+}
+
+#contact li{
+	
+	padding: 10px;
+}
+#top{
+	width: 78%;
+	height: 50%;
+	box-sizing: border-box;
+	margin: auto;
+	float: right;
+	font-family: verdana;
+	margin-left: auto;
+}
+#top p{
+	font-size: 24px;
+	font-family: verdana;
+}
+#top img{
+	width: 90%;
+	height: 50%;
+	box-sizing: border-box;
+}
+#top img:hover{
+	transform: scale(1.05, 1.05);
+	transition-timing-function: ease;
+	transition-duration: 1s;
+	overflow: hidden;
+}
+#text{
+	font-size: 500%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	color: white;
+	font-family: verdana;
+}
+#text2{
+	font-size: 250%;
+	font-family: verdana;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	color: white;
+	font-family: verdana;
+}
+#top button{
+	background-color: black;
+	font-size: 100%;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	color: white;
+	border: none;
+	font-family: verdana;
+}
+#pics{
+	width: 76%;
+	height: 15%;
+	box-sizing: border-box;
+	float: right;
+	font-family: verdana;
+	margin-right: 15px;
+	margin-top: 10px;
+	
+}
+
+#pic1, #pic2, #pic3, #pic4 {
+	width: 21.7%;
+	height: 15%;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 10px;
+}
+#pic1 img,#pic2 img, #pic3 img, #pic4 img{
+	width: 100%;
+	height: 12%;
+	box-sizing: border-box;
+
+}
+#pic1 img:hover{
+	transform: scale(1.2, 1.2);
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+
+#pic2 img:hover{
+	transform: scale(1.2, 1.2);
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+#pic3 img:hover{
+	transform: scale(1.2, 1.2);
+	transition-duration: 1s;
+	transition-timing-function: ease;
+
+}
+#pic4 img:hover{
+	transform: scale(1.2, 1.2);
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+#pics p{
+	;
+
+	font-family: verdana;
+}
+@media only screen and (max-width: 640px) {
+    #left{
+    	margin: 0px;
+    	padding: 0px;
+
+    }
+    #left h1{
+    	font-size: 22px;
+    }
+    #menu, #contact, #menu li, #contact li{
+    
+    	margin-right: 5px;
+    	padding: 5px;
+    	font-size: 12px;
+
+    }
+
+   
+    #text, #text2, #top button{
+    	display: none;
+    }
+    
+     #pic1, #pic2, #pic3, #pic4 {
+   	width: 50%;
+   	height: 12%;
+   } 
+   #pic1 img,#pic2 img, #pic3 img, #pic4 img{
+   	width: 50%;
+   	height: 10%;
+   }
+}
+
+@media only screen and (max-width:800px){
+   	#text{
+   		font-size: 300%;
+   }
+   	#text2{
+   		font-size: 200%;
+   		top: 30%;
+   }
+   #top button{
+   		font-size: 100%;
+   		top: 40%;
+   }
+   #pics{
+   	width: 76%;
+   	height: 25%;
+   	margin-right: 10px;
+   }
+   #pic1, #pic2, #pic3, #pic4 {
+   	width: 45%;
+   	height: 12%;
+   } 
+   #pic1 img,#pic2 img, #pic3 img, #pic4 img{
+   	width: 100%;
+   	height: 10%;
+   }

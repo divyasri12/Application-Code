@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;}
+#left{
+	width: 21%;
+	position: fixed;
+	box-sizing: border-box;
+	margin-left: auto;
+	text-align: left;
+	font-family: verdana;
+	margin-right: auto;
+}
+#left h1{
+	padding-left: auto;
+}
+#left h1 a{
+	text-decoration: none;
+	color: black;
+}
+#menu{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: auto;
+	text-align: left;
+	font-family: verdana;
+}
+#menu li{
+	margin-top: 10px;
+	font-weight: bold;
+	padding: 10px;
+}
+#menu li a{
+	text-decoration: none;
+	color: black;
+}
+#menu li:hover{
+	background-color: grey;
+}
+#contact{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 50px;
+	text-align: left;
+	font-family: verdana;
+}
+#contact li{
+	
+	padding: 10px;
+}
+#dresses{
+	width: 76%;
+	box-sizing: border-box;
+	float: right;
+	
+}
+#dresses figure img {
+	width: 100%;
+}
+
+#dresses figure{
+	width: 45%;
+	float: left;
+	margin: 0px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	
+}
+#info{
+	width: 75%;
+	float: right;
+	padding-right: 25px;
+}
+@media only screen and (max-width: 640px) {
+    #left{
+    	margin: 0px;
+    	padding: 0px;
+
+    }
+    #left h1{
+    	font-size: 22px;
+    }
+    #menu, #contact, #menu li, #contact li{
+    
+    	margin-right: 5px;
+    	padding: 5px;
+    	font-size: 12px;
+
+    }
+     #dresses figure{
+    	width: 76%;
+    }
+    #dresses figure img{
+    	width: 100%;
+    }
+
+   
+}
+
+@media only screen and (max-width:800px){
+   	#text{
+   		font-size: 300%;
+   }
+   	#text2{
+   		font-size: 200%;
+   		top: 30%;
+   }
+   #top button{
+   		font-size: 100%;
+   		top: 40%;
+   }
+    #dresses figure{
+   	width: 50%;
+   	margin: 0px;
+   	margin-bottom: 20px;
+   }
+   #dresses figure img{
+   	width: 80%;
+   }
+    #dresses figure{
+    	width: 76%;
+    }
+    #dresses figure img{
+    	width: 100%;
+    }}

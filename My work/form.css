@@ -1,0 +1,111 @@
+#outline{
+	width: 600px;
+	height: 650px;
+	box-sizing: border-box;
+	background-color: #e0e1e438;
+	margin:auto;
+	text-align: center;
+	
+
+}
+hr{
+	border: 0; 
+  height: 2px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  
+}
+#head{
+	color: #0d999a9c;
+	font-size: 26px;
+	font-weight: lighter;
+	font-family: Impact, sans-serif;
+	padding-top: 5px;
+}
+#demo{
+	margin: 0px 10px;
+	background-color: skyblue;
+	color: white;
+	font-style: italic;
+}
+#demo3{
+	margin: 0px 10px;
+	background-color: white;
+	color: skyblue;
+
+}
+#box{
+	width: 500px;
+	height: 550px;
+	box-sizing: border-box;
+	border: solid;
+	border-color: #b8c4d0;
+	border-collapse: collapse;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: -1px -1px 1px 1px;
+}
+#sign{
+	font-size: 28px;
+	font-family: 'Chau Philomene One';
+	color: #01828aed;
+	text-align: center;
+	font-weight: bold;
+}
+#form label{
+	font-weight: lighter;
+	float: left;
+	padding-left: 25px;
+}
+#form input{
+	width: 450px;
+	padding: 10px;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+#form input[type="text"]{
+	background-image: url(images/human.png);
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+#form input[type="email"]{
+	background-image: url(images/email.png);
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}#form input[type="password"]{
+	background-image: url(images/password.png);
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+#up{
+	width: 200px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	float: right;
+	background-color: skyblue;
+	color: white;
+	border-radius: 10px;
+	margin-right: 25px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Anton';
+
+}
+#last{
+	width: 495px;
+	height: 66px;
+	box-sizing: border-box;
+	background-image: url(images/sripes.jpg);
+	background-repeat: no-repeat;
+	background-size: 495px 66px;
+	opacity: 0.6;
+
+}
+#last p{
+	float: right;
+	padding-right: 25px;
+	opacity: 1;
+}
+#go{
+	color: #0682b5;
+}
