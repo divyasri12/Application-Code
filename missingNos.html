@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	
+//1
+	var arr =[2,6,5,10,12,22,35,46,50];
+	var newarr = [];
+	for(i=1;i<=50;i++){
+		if(arr.indexOf((i) === -1)){
+
+			newarr.push(i);
+		}
+		}
+	console.log(newarr);
+
+//2
+	var arr = [1, 2, 3, 10, 23, 33, 44,50,1,2];
+	var arr1=[];
+	for(var i=0; i<arr.length; i++){
+		if(arr1.indexOf(arr[i])===-1)
+			arr1.push(arr[i]);
+	}
+	console.log(arr1);
+
+//3
+	var arr = [2,15,65,43,76,50];
+	let maxm = Math.max.apply(Math,arr);
+	let minm = Math.min.apply(Math,arr);
+	let diff = maxm - minm;
+	for(i=0;i<arr.length;i++){
+		if((arr.indexOf(minm)>(arr.indexOf(maxm)))){
+			arr(arr.indexOf(minm))=arr(arr.indexOf(maxm)-1);
+		}
+		else{
+			arr[(arr.indexOf(maxm)-1)]=arr[(arr.indexOf(minm))];
+
+		}
+	}
+	console.log(diff);
+	console.log(arr);
+
+//4
+	var obj = "this is a test";
+	var obj1 = obj.split('').reverse().join('');
+	console.log(obj1);
+
+//5
+	function trial(b,c){
+		if((b.split('').sort().join(''))===(c.split('').sort().join(''))){
+		return true;}
+		else{
+			return false;
+		}
+
+	}
+
+console.log(trial("cinea","iceman"));
+
+//6
+	//slice(0)//
+	var arr2 = arr.slice(0);
+	console.log(arr2);
+	//let of
+	var arr3 = [1,2,3,4];
+	var arr4=[];
+	for(let i of arr3){
+		  arr4.push(i);
+	}
+	
+	console.log(arr4)
+
+	//for loop
+	var arr5=[];
+	for(i=0;i<arr3.length;i++){
+		arr5.push(arr3[i]);
+	}
+	console.log(arr5);
+
+
+//7
+	var arr6 = [1,2,3,5,6,7];
+	arr6.length=0;
+	console.log(arr6);
+
+	
+//Question from the document	
+var f = setTimeout(function(){
+	var j =[1,2,3,4,5];
+	for(let i of j){
+		console.log(j.indexOf(i));
+	}
+	
+},3000)
+
+//8
+	var arr=[1,2,3,4,5,3,1,2];
+	for(var i=0;i<arr.length;i++){
+		for(var j=0;j<arr.length;j++)
+		{
+	  if((arr[i]+arr[j])==5){
+	    console.log(arr[i],arr[j]);
+
+	 }
+	}}
+
+
+
+	
+</script>
+
+</body>
+</html>
