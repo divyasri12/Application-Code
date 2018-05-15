@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="javascriptCalculator.css">
+</head>
+<body>
+<div id="center">
+<div class="head"><h1>JavaScript Calculator</h1></div><br>
+<div class="body">
+	<table>
+		<tr><td colspan="4" id="ine" style="text-align: right; font-weight: lighter;padding-right: 10px;">0</td></tr>
+		<tr>
+			<td onclick="cal(this)">7</td>
+			<td onclick="cal(this)">8</td>
+			<td onclick="cal(this)">9</td>
+			<td onclick="cal(this)">+</td>
+		</tr>
+		<tr>
+			<td onclick="cal(this)">4</td>
+			<td onclick="cal(this)">5</td>
+			<td onclick="cal(this)">6</td>
+			<td onclick="cal(this)">-</td>
+		</tr>
+		<tr>
+			<td onclick="cal(this)">1</td>
+			<td onclick="cal(this)">2</td>
+			<td onclick="cal(this)">3</td>
+			<td onclick="cal(this)">*</td>
+		</tr>
+		<tr>
+			<td onclick="cal(this)">0</td>
+			<td onclick="cal(this)">%</td>
+			<td onclick="cal(this)">.</td>
+			<td onclick="cal(this)">/</td>
+		</tr>
+		<tr>
+			<td colspan="2" onclick="cal(this)">=</td>
+			<td colspan="2" onclick="cal(this)">C</td>
+		</tr>
+	</table>
+
+</div>
+</div>
+<script type="text/javascript">
+	
+	
+		
+		var ine= document.getElementById("ine");
+			
+	function cal(obj){
+		var push = obj.innerHTML;
+		if(push == '='){
+			ine.innerHTML=eval(ine.innerHTML);
+		}
+		else if(push == 'C'){
+			ine.innerHTML='0';
+
+		}
+		else {
+			if(ine.innerHTML === '0'){
+
+			ine.innerHTML=push;
+		}
+		else{
+			ine.innerHTML +=push;
+		}}
+	}
+	
+</script>
+
+</body>
+</html>

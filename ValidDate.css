@@ -1,0 +1,30 @@
+#main{
+	width: 600px;
+	height: 400px;
+	box-sizing: border-box;
+	margin: auto;
+	border: solid black 1px;
+	border-collapse: collapse;
+	background: linear-gradient(to bottom, white, #c3f5c3);
+
+}
+
+#h2{
+	text-decoration: underline;
+	text-underline-position: under;
+	text-align: center;
+
+}
+#inp , #inp input{
+	font-size: 20px;
+	text-align: center;
+}
+
+#inp span{
+	color: green;
+}
+
+#button{
+	margin: auto;
+	text-align: center;
+}

@@ -1,0 +1,55 @@
+
+body{
+	background-color: black;
+}
+#center{
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.head{
+	width: 500px;
+	height: 100px;
+	background: linear-gradient(to right,orange, #dcdc67);
+	
+}
+
+.head h1{
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+}
+.body{
+	width: 500px;
+	height: 400px;
+	box-sizing: border-box;
+	background: linear-gradient(to right,orange, #dcdc67);
+}
+table{
+	width: 250px;
+	height: 300px;
+	margin: auto;
+	box-sizing: border-box;
+	padding-top: 25px;
+	cell-spacing:;
+	
+	
+}
+#in input{
+	width: 250px;
+}
+table tr
+{
+	background-color: white;
+
+}
+table tr td{
+	width: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+}
