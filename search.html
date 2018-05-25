@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search</title>
+	<style type="text/css">
+		#count{
+			width: 173px;
+			height: 100px;
+			overflow: auto;
+			border: solid black 1px;
+			border-collapse: collapse;
+			box-sizing: border-box;
+			padding-top: 0px;
+			margin-top: 0px;
+			padding-left: 5px;
+		}
+		#count li{
+			list-style-type: none;
+		}
+	</style>
+
+</head>
+<body>
+<div>
+	<input type="text" name="list" id="inp">
+	<ul id="count">
+		<li><input type="checkbox" onclick="p()"> India</li>
+		<li><input type="checkbox">Bangladesh</li>
+		<li><input type="checkbox">USA</li>
+		<li><input type="checkbox">Canada</li>
+		<li><input type="checkbox">London</li>
+		<li><input type="checkbox">Japan</li>
+		<li><input type="checkbox">Uganda</li>
+		<li><input type="checkbox">Indonesia</li>
+		<li><input type="checkbox">Burma</li>
+	</ul>
+</div>
+<script type="text/javascript">
+var x = document.getElementById("inp").innerText;
+var y = document.getElementsByTagName("input").innerText;
+
+var f = li.length;
+for(var i=0;i<li.length;i++){
+	var z = document.getElementsByTagName("li")[i].innerText;
+	x.value=z.filter("i");}
+	// function p(){
+		
+	// 		if(y.type===checked){
+	// 	 		x=this.innerText("z");
+	// 	}
+	// }
+</script>
+
+</body>
+</html>

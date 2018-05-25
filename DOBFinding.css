@@ -1,0 +1,29 @@
+#main{
+	width: 600px;
+	height: 300px;
+	box-sizing: border-box;
+	margin: auto;
+	border: solid black 1px;
+	border-collapse: collapse;
+	background: linear-gradient(to bottom, white, #c3f5c3);
+
+}
+
+#h2{
+	text-decoration: underline;
+	text-underline-position: under;
+	text-align: center;
+
+}
+#inp , #inp input, #tim, #las{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#inp span, #tim, #las{
+	color: green;
+}
+#tim{
+
+}

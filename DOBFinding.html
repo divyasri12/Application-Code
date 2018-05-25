@@ -5,6 +5,74 @@
 	<link rel="stylesheet" type="text/css" href="DOBFinding.css">
 </head>
 <body>
+<div id="main">
+		<h2 id="h2">NACRE SOFTWARE SERVICES</h2>
+		<p id="inp">
+			<span>Please Enter your Date of Birth:</span>
+			<input type="text" name="DOB" id="dat" value=""><input type="button" name="" value="Age" onclick="func()">
+		</p>
 
+		<p id="tim">Todays Date and Time:
+					<span id="dtim"></span>
+		</p>
+		<p id="las">Hello Friend U'r <span id="yea"></span> years old</p>
+	
+</div>
+<script type="text/javascript">
+	var currdate = new Date();
+	var currhr = currdate.getHours();
+	var currmin = currdate.getMinutes();
+	var curryr = currdate.getFullYear();
+	var currmon = currdate.getMonth();
+	var cdate = currdate.getDate();
+	var ap;
+	if(currhr<12){
+		ap="am";
+	}
+	else{
+		ap="pm";
+	}
+	if(currhr==0){
+		currhr = 12;
+	}
+	if(currhr>12){
+		currhr=currhr-12;
+	}
+	document.getElementById("dtim").innerHTML=currhr+":"+currmin + " " + ap + "," + " " + cdate+"-"+currmon+"-"+curryr;
+
+	function func(){
+		var dat=document.getElementById("dat").value;
+		 var dats = new Date(dat);
+		
+			document.getElementById("yea").innerHTML=eval(curryr - dats.getFullYear());
+		
+	}
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- var x = new Date();
+	var y = x.getFullYears();
+	var z = document.getElementById("dat").value;
+	document.getElementById('dtim').innerHTML=x.getHours() % 12;
+	var err = /^(0?[1-9]|[12][0-9]|3[01])-(0?[1-9]|[1][012])-([1-20]\d\d)$/;
+	function func(){
+		if(z==err){
+		var age = y - z;
+	}};	
+	document.getElementById("yea").innerHTML=age; -->

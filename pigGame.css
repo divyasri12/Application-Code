@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+}
+#back{
+	background-color: grey;
+	width: cover;
+	height: 750px;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+#middle{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+	box-sizing: border-box;
+	background-color: white;
+}
+#left{
+	width: 50%;
+	height: 500px;
+	box-sizing: border-box;
+	float: left;
+	background-color: lightgrey;
+}
+#right{
+	width: 50%;
+	height: 500px;
+	box-sizing: border-box;
+	float: right;
+}
+#plus{
+	position: relative;
+	top: 60px;
+	left: 620px;
+	font-size: 20px;
+	font-family: verdana;
+	letter-spacing: -2px;
+}
+#sync{
+	position: relative;
+	top: 350px;
+	left: 520px;
+}
+#hold{
+	position: relative;
+	top: 400px;
+	left: 450px;
+}
+#image{
+	width: 5%;
+	position: absolute;
+	left: 640px;
+	top: 250px;
+	box-shadow: 1px 1px 1px 1px;
+	
+}
+#img{
+	width: 100%;
+	}
+#box1{
+	width: 25%;
+	height: 80px;
+	box-sizing: border-box;
+	background-color: red;
+	margin: auto;
+	margin-top: 120px;
+	z-index: -100;
+}
+#box2{
+	width: 25%;
+	height: 80px;
+	box-sizing: border-box;
+	background-color: red;
+	margin: auto;
+	margin-top: 120px;
+}
+#player1, #player2{
+	color: red;
+	font-size: 40px;
+	box-sizing: border-box;
+	padding-top: 100px;
+	text-align: center;
+	font-weight: lighter;
+
+}
+#num1, #num2{
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	font-weight: lighter;
+}
+#cur1, #cur2{
+	color: black;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 16px;
+}
+#sco1, #sco2{
+	padding-top: 0px;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.clearfix{
+	clear: both;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<select id="sel"  onclick="g()">
+  <option>India</option>
+  <option>SriLanka</option>
+  <option>Bangladesh</option>
+  <option>China</option>
+</select>
+<p id="p">vbkj</p>
+
+</body>
+<script type="text/javascript">
+  var x = document.getElementById('sel')(this).value;
+  function g(){
+    if (x(this)==true) {
+      document.getElementById("p").innerHTML=x;
+    }
+  }
+</script>
+</html>
