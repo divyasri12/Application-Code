@@ -7,6 +7,7 @@
 	height: 750px;
 	padding-top: 60px;
 	box-sizing: border-box;
+	position: relative;
 }
 #middle{
 	width: 60%;
@@ -36,23 +37,24 @@
 	font-family: verdana;
 	letter-spacing: -2px;
 }
-#sync{
-	position: relative;
-	top: 350px;
-	left: 520px;
+#sync, #sync2{
+	position: absolute;
+	top: 418px;
+	left: 640px;
+	cursor: pointer;
 }
-#hold{
-	position: relative;
-	top: 400px;
-	left: 450px;
+#hold,#hold2{
+	position: absolute;
+	top: 490px;
+	left: 650px;
 }
 #image{
 	width: 5%;
 	position: absolute;
-	left: 640px;
+	left: 650px;
 	top: 250px;
 	box-shadow: 1px 1px 1px 1px;
-	
+	/*display: none;*/
 }
 #img{
 	width: 100%;
