@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON Table</title>
+	<style type="text/css">
+		#tab, #tab th{
+			border:1px solid black;
+			border-collapse: collapse;
+		}
+		#tab td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 10px 20px;
+		}
+	</style>
+</head>
+<body>
+<table id="tab">
+<tr>
+	<th>Employee</th>
+	<th>Role</th>
+	<th>Technologies</th>
+</tr>
+</table>
+<script type="text/javascript">
+	var info = [{Employee:"Divya", Role:"UI Developer", Technologies:["angular","js"]},
+				{Employee:"Akhila", Role:"UI Developer", Technologies:["Redux","NodeJS"]},
+				{Employee:"Renuka", Role:"UI Developer", Technologies:["ReactJS","NodeJS"]},
+				{Employee:"Chaitanya", Role:"UI Developer", Technologies:["VanillaJS","MateorJS"]}];
+
+	var con = JSON.stringify(info);
+	console.log(con);
+	var data = JSON.parse(con);
+
+	
+	for(i=0; i<data.length; i++){
+		var tr = document.createElement('tr')
+		var emp = document.createElement('td');
+		var role = document.createElement('td');
+		var tech = document.createElement('td');
+
+		emp.innerText = data[i].Employee;
+		role.innerText = data[i].Role;
+		tech.innerText = data[i].Technologies;
+
+		tr.appendChild(emp);
+		tr.appendChild(role);
+		tr.appendChild(tech);
+		document.getElementById("tab").appendChild(tr);
+	}
+
+	console.log(data);
+</script>
+</body>
+</html>
