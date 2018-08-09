@@ -52,6 +52,40 @@
 	}
 	console.log(diff);
 	console.log(arr);
+    
+    var arrNumbers = [4,6,3,23,12,55];
+
+
+function findNum(arr){
+  
+  var minNum = arr[0];
+  var largestDiffNow = 0;
+  
+  for(var i =1;i<arr.length; i++){
+    
+ 
+    
+    if(arr[i] > minNum && arr[i]-largestDiffNow > largestDiffNow )
+      
+      {
+        largestDiffNow = arr[i] - minNum;
+      } 
+    
+    else if(arr[i] <= minNum){
+      
+      minNum = arr[i]
+    }
+    
+
+    
+  }
+  
+  return largestDiffNow;
+}
+
+
+console.log(findNum(arrNumbers))
+
 
 //4
 	var obj = "this is a test";
